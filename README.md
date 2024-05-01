@@ -7,7 +7,7 @@ Personal finance app to track expenses, budgets, and financial goals efficiently
 |[Part_3](#part3)|Project Closure: T.B.C|
 
 
-<a>id=part1</a> **Part 1 - Project Planning and initiation**
+<a id=part1></a> **Part 1 - Project Planning and initiation**
 ![Page 1](img/FinTrek_Page_01.png)
 ![Page 2](img/FinTrek_Page_02.png)
 ![Page 3](img/FinTrek_Page_03.png)
@@ -45,6 +45,6 @@ Personal finance app to track expenses, budgets, and financial goals efficiently
 ![Page 35](img/FinTrek_Page_35.png)
 ![Page 36](img/FinTrek_Page_36.png)
 
-<a>id=part2</a> **Part 2 - Project Execution: T.B.C**
+<a id=part2></a> **Part 2 - Project Execution: T.B.C**
 
-<a>id=part3</a> **Part 3 - Project Planning and initition: T.B.C**
+<a id=part3></a> **Part 3 - Project Planning and initition: T.B.C**
