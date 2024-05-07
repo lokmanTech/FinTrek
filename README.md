@@ -1,5 +1,7 @@
 # FinTrek
 Personal finance app to track expenses, budgets, and financial goals efficiently and securely.
+
+#### Table of Contents
 | Part | Description |
 |:----:|:------------|
 |[Part_1](#part1)|**Planning and initiation**: In the intertwined phases of initiation and planning, project goals are shaped, resources allocated, and potential risks strategically assessed|
