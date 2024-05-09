@@ -1,52 +1,29 @@
 # FinTrek
 Personal finance app to track expenses, budgets, and financial goals efficiently and securely.
 
-#### Table of Contents
-| Part | Description |
-|:----:|:------------|
-|[Part_1](#part1)|**Planning and initiation**|
-|[Part_2](#part2)|**Project Execution** |
-||Project Application Layout Design: T.B.C|
-||Project Application Design: T.B.C|
-||Project Development: T.B.C|
-||Project Testing: T.B.C|
-||Project Deployment: T.B.C|
-||Data Security Enhancement Projects: T.B.C|
-||Database Migration Project: T.B.C|
-||Disaster Recovery Implementation: T.B.C|
-||Performance Tuning Initiative: T.B.C|
-||Real-Time Analytics Implementation: T.B.C|
-||Interactive Data Dashboard: T.B.C|
-||Exploratory Data Analysis: T.B.C|
-||Predictive Modeling: T.B.C|
-||Sentiment Analysis of Application Data: T.B.C|
-||Market Basket Analysis: T.B.C|
-||PowerBI Dashboard: T.B.C|
-|[Part_3](#part3)|**Project Closure** |
-
 
 #### Table of Contents
 | Part | Description |
 |:----:|:------------|
-|####[Part 1](#part1)|**Planning and Initiation**|
-|####[Part 2](#part2)|**Project Execution** |
-|[Part 2.1](#layout-design)|**Layout Design**|
-|[Part 2.2](#application-design)|**Application Design**|
-|[Part 2.3](#development)|**Development**|
-|[Part 2.4](#testing)|**Testing**|
-|[Part 2.5](#deployment)|**Deployment**|
-|[Part 2.6](#security-enhancement)|**Security Enhancement Projects**|
-|[Part 2.7](#database-migration)|**Database Migration Project**|
-|[Part 2.8](#disaster-recovery)|**Disaster Recovery Implementation**|
-|[Part 2.9](#performance-tuning)|**Performance Tuning Initiative**|
-|[Part 2.10](#real-time-analytics)|**Real-Time Analytics Implementation**|
-|[Part 2.11](#interactive-data-dashboard)|**Interactive Data Dashboard**|
-|[Part 2.12](#exploratory-data-analysis)|**Exploratory Data Analysis**|
-|[Part 2.13](#predictive-modeling)|**Predictive Modeling**|
-|[Part 2.14](#sentiment-analysis)|**Sentiment Analysis of Application Data**|
-|[Part 2.15](#market-basket-analysis)|**Market Basket Analysis**|
-|[Part 2.16](#powerbi-dashboard)|**PowerBI Dashboard**|
-|####[Part 3](#part3)|**Project Closure** |
+|[**Part 1**](#part1)|**Planning and Initiation**|
+|[**Part 2**](#part2)|Project Execution|
+|[Part 2.1](#layout-design)|Layout Design|
+|[Part 2.2](#application-design)|Application Design|
+|[Part 2.3](#development)|Development|
+|[Part 2.4](#testing)|Testing|
+|[Part 2.5](#deployment)|Deployment|
+|[Part 2.6](#security-enhancement)|Security Enhancement Projects|
+|[Part 2.7](#database-migration)|Database Migration Project|
+|[Part 2.8](#disaster-recovery)|Disaster Recovery Implementation|
+|[Part 2.9](#performance-tuning)|Performance Tuning Initiative|
+|[Part 2.10](#real-time-analytics)|Real-Time Analytics Implementation|
+|[Part 2.11](#interactive-data-dashboard)|Interactive Data Dashboard|
+|[Part 2.12](#exploratory-data-analysis)|Exploratory Data Analysis|
+|[Part 2.13](#predictive-modeling)|Predictive Modeling|
+|[Part 2.14](#sentiment-analysis)|Sentiment Analysis of Application Data|
+|[Part 2.15](#market-basket-analysis)|Market Basket Analysis|
+|[Part 2.16](#powerbi-dashboard)|PowerBI Dashboard|
+|[**Part 3**](#part3)|**Project Closure** |
 
 
 
