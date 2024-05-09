@@ -5,8 +5,24 @@ Personal finance app to track expenses, budgets, and financial goals efficiently
 | Part | Description |
 |:----:|:------------|
 |[Part_1](#part1)|**Planning and initiation**: In the intertwined phases of initiation and planning, project goals are shaped, resources allocated, and potential risks strategically assessed|
-|=[Part_2](#part2)-**Project Execution** |
-|[Part_3](#part3)|**Project Closure**: T.B.C|
+|[Part_2](#part2)|**Project Execution** |
+||Project Application Layout Design|
+||Project Application Design|
+||Project Development|
+||Project Testing|
+||Project Deployment|
+||Data Security Enhancement Projects|
+||Database Migration Project|
+||Disaster Recovery Implementation|
+||Performance Tuning Initiative
+||Real-Time Analytics Implementation|
+||Interactive Data Dashboard|
+||Exploratory Data Analysis|
+||Predictive Modeling|
+||Sentiment Analysis of Application Data|
+||Market Basket Analysis|
+||PowerBI Dashboard|
+|[Part_3](#part3)|**Project Closure** |
 
 
 <a id=part1></a> **Part 1 - Project Planning and initiation**
