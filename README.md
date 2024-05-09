@@ -5,7 +5,7 @@ Personal finance app to track expenses, budgets, and financial goals efficiently
 | Part | Description |
 |:----:|:------------|
 |[Part_1](#part1)|**Planning and initiation**: In the intertwined phases of initiation and planning, project goals are shaped, resources allocated, and potential risks strategically assessed|
-|<td colspan="2">[Part_2](#part2)-**Project Execution**</td> |
+|<td>[Part_2](#part2)-**Project Execution**</td> |
 |[Part_3](#part3)|**Project Closure**: T.B.C|
 
 
