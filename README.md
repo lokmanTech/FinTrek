@@ -28,8 +28,8 @@ Personal finance app to track expenses, budgets, and financial goals efficiently
 #### Table of Contents
 | Part | Description |
 |:----:|:------------|
-|[Part 1](#part1)|**Planning and Initiation**|
-|[Part 2](#part2)|**Project Execution** |
+|[**Part 1**](#part1)|**Planning and Initiation**|
+|[**Part 2**](#part2)|**Project Execution** |
 |[Part 2.1](#layout-design)|**Layout Design**|
 |[Part 2.2](#application-design)|**Application Design**|
 |[Part 2.3](#development)|**Development**|
@@ -46,7 +46,7 @@ Personal finance app to track expenses, budgets, and financial goals efficiently
 |[Part 2.14](#sentiment-analysis)|**Sentiment Analysis of Application Data**|
 |[Part 2.15](#market-basket-analysis)|**Market Basket Analysis**|
 |[Part 2.16](#powerbi-dashboard)|**PowerBI Dashboard**|
-|[Part_3](#part3)|**Project Closure** |
+|[**Part 3**](#part3)|**Project Closure** |
 
 
 
