@@ -25,6 +25,34 @@ Personal finance app to track expenses, budgets, and financial goals efficiently
 |[Part_3](#part3)|**Project Closure** |
 
 
+#### Table of Contents
+| Part | Description |
+|:----:|:------------|
+|[Part_1](#part1)|**Planning and Initiation**|
+|[Part_2](#part2)|**Project Execution** |
+||[2.1](#layout-design)|**Layout Design**|
+||[2.2](#application-design)|**Application Design**|
+||[2.3](#development)|**Development**|
+||[2.4](#testing)|**Testing**|
+||[2.5](#deployment)|**Deployment**|
+||[2.6](#security-enhancement)|**Security Enhancement Projects**|
+||[2.7](#database-migration)|**Database Migration Project**|
+||[2.8](#disaster-recovery)|**Disaster Recovery Implementation**|
+||[2.9](#performance-tuning)|**Performance Tuning Initiative**|
+||[2.10](#real-time-analytics)|**Real-Time Analytics Implementation**|
+||[2.11](#interactive-data-dashboard)|**Interactive Data Dashboard**|
+||[2.12](#exploratory-data-analysis)|**Exploratory Data Analysis**|
+||[2.13](#predictive-modeling)|**Predictive Modeling**|
+||[2.14](#sentiment-analysis)|**Sentiment Analysis of Application Data**|
+||[2.15](#market-basket-analysis)|**Market Basket Analysis**|
+||[2.16](#powerbi-dashboard)|**PowerBI Dashboard**|
+|[Part_3](#part3)|**Project Closure** |
+
+
+
+
+
+
 <a id=part1></a> **Part 1 - Project Planning and initiation**
 ![Page 1](img/FinTrek_Page_01.png)
 ![Page 2](img/FinTrek_Page_02.png)
