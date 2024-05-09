@@ -4,24 +4,24 @@ Personal finance app to track expenses, budgets, and financial goals efficiently
 #### Table of Contents
 | Part | Description |
 |:----:|:------------|
-|[Part_1](#part1)|**Planning and initiation**: Initial planning, project goals are shaped, resources allocated, and potential risks strategically assessed.|
+|[Part_1](#part1)|**Planning and initiation**|
 |[Part_2](#part2)|**Project Execution** |
-||Project Application Layout Design|
-||Project Application Design|
-||Project Development|
-||Project Testing|
-||Project Deployment|
-||Data Security Enhancement Projects|
-||Database Migration Project|
-||Disaster Recovery Implementation|
-||Performance Tuning Initiative
-||Real-Time Analytics Implementation|
-||Interactive Data Dashboard|
-||Exploratory Data Analysis|
-||Predictive Modeling|
-||Sentiment Analysis of Application Data|
-||Market Basket Analysis|
-||PowerBI Dashboard|
+||Project Application Layout Design: T.B.C|
+||Project Application Design: T.B.C|
+||Project Development: T.B.C|
+||Project Testing: T.B.C|
+||Project Deployment: T.B.C|
+||Data Security Enhancement Projects: T.B.C|
+||Database Migration Project: T.B.C|
+||Disaster Recovery Implementation: T.B.C|
+||Performance Tuning Initiative: T.B.C|
+||Real-Time Analytics Implementation: T.B.C|
+||Interactive Data Dashboard: T.B.C|
+||Exploratory Data Analysis: T.B.C|
+||Predictive Modeling: T.B.C|
+||Sentiment Analysis of Application Data: T.B.C|
+||Market Basket Analysis: T.B.C|
+||PowerBI Dashboard: T.B.C|
 |[Part_3](#part3)|**Project Closure** |
 
 
