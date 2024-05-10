@@ -2,8 +2,7 @@
 
 "Fintrek" is a comprehensive personal finance web application designed to empower individuals in managing their financial health with ease and efficiency. With Fintrek, users can effortlessly track their income, monitor expenses, plan budgets, and gain valuable insights through intuitive analytics tools.
 
-**Key Features**
-Key Features:
+**Key Features:**
 
 1. **Income Tracking:** Fintrek enables users to log their various sources of income, including salaries, bonuses, investments, and other earnings, providing a clear overview of their financial inflows.
 
