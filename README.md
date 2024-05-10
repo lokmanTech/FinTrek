@@ -5,7 +5,7 @@ Personal finance app to track expenses, budgets, and financial goals efficiently
 | Part | Description |
 |:----:|:------------|
 |[**Part 1**](PlanningAndInitiation.md)|**Planning and Initiation**|
-|[**Part 2**](ProjectExecution.md)|**Project Execution**|
+|**Part 2**|**Project Execution**|
 |[*Part 2.1*](LayoutArchitecture/FintrekLayoutArchitecture.md)|Layout Architecture|
 |[*Part 2.2*](#application-design)|Application Design|
 |[*Part 2.3*](#development)|Development|
