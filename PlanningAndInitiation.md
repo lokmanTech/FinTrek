@@ -1,3 +1,80 @@
+## Project Planning and Development
+
+`PLAN`
+
+- DORA Metrics
+- Value Stream Management
+- Pages
+- Wiki
+- Portfolio Management
+- Team Planning
+- DevOps Reports
+
+`CREATE`
+
+- Code Suggestion
+- Web IDE
+- GitLab CLI
+- Code Review Workflow
+- Source Code Management
+- Remote Development
+
+`VERIFY`
+
+- Review Apps
+- Code Testing and Coverage
+- Merge Trains
+- Continuous Integration (CI)
+- Secrets Management
+
+`SECURE`
+
+- Container Scanning
+- Software Composition Analysis
+- API Security
+- Fuzz Security
+- DAST
+- Secret Detection
+- SAST
+- Code Quality
+
+`PACKAGE`
+
+- Dependency Proxy
+- Container Registry
+- HeIm Chart Registry
+- Package Registry
+- Dependency Firewall
+
+`DEPLOY`
+
+- Release Orchestration
+- Infrastructure as Code (IaC)
+- Feature Flags
+- Environment Management
+- Deployment Management
+- Continuous Delivery (CD)
+- Auto DevOps
+
+`MONITOR`
+
+- Error Tracking
+- Product Analytics Visualization
+- Metrics
+- Tracing
+- Logging
+
+`GOVERN`
+
+- Compliance Management
+- Audit Events
+- Software Bill of Materials
+- Dependency Management
+- Vulnerability Management
+- Security Policy Management
+- Release Evidence
+
+
 ## Introduction
 
 "Fintrek" is a comprehensive personal finance web application designed to empower individuals in managing their financial health with ease and efficiency. With Fintrek, users can effortlessly track their income, monitor expenses, plan budgets, and gain valuable insights through intuitive analytics tools.
