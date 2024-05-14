@@ -23,3 +23,28 @@ Personal finance app to track expenses, budgets, and financial goals efficiently
 |[*Part 2.15*](#market-basket-analysis)|Market Basket Analysis|T.B.C|
 |[*Part 2.16*](#powerbi-dashboard)|PowerBI Dashboard|T.B.C|
 |[**Part 3**](ProjectClosure.md)|**Project Closure** |T.B.C|
+
+## Event Highlights Timeline
+
+<div style="display: flex; justify-content: space-between; align-items: center; margin-top: 20px;">
+  <div style="flex: 1; text-align: center;">
+    <strong>Jan 2024</strong><br>
+    <span>Event 1</span><br>
+    <small>Description of Event 1</small>
+  </div>
+  <div style="flex: 1; text-align: center;">
+    <strong>Feb 2024</strong><br>
+    <span>Event 2</span><br>
+    <small>Description of Event 2</small>
+  </div>
+  <div style="flex: 1; text-align: center;">
+    <strong>Mar 2024</strong><br>
+    <span>Event 3</span><br>
+    <small>Description of Event 3</small>
+  </div>
+  <div style="flex: 1; text-align: center;">
+    <strong>Apr 2024</strong><br>
+    <span>Event 4</span><br>
+    <small>Description of Event 4</small>
+  </div>
+</div>
