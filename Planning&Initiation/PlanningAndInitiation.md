@@ -102,7 +102,7 @@ Fintrek is more than just a financial tracking tool; it's a trusted companion th
 
 <p align="center"><img src="./img/PlanningProcess.png"></p>
 
-*Note: These info I took during GitLab Event held on Element Hotel, Kuala Lumpur. So, this is personal project, I'll testing out on using GitLab and GitHub, much faster to differentiate between these two services.*
+*Note: These info I took during GitLab Event held on Element Hotel, Kuala Lumpur. So, this is personal project, I'll testing out on using GitLab and GitHub.*
 
 ## Project Deployment Plan
 1. **Planning and Design:**
