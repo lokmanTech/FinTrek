@@ -28,11 +28,11 @@ Personal finance app to track expenses, budgets, and financial goals efficiently
 |[**Part 3**](ProjectClosure/ProjectClosure.md)|**Project Closure** |T.B.C|
 -->
 
-### [Design and Architecture](Planning&Initiation/PlanningAndInitiation.md) (Complete)
+### [Design and Architecture](./LayoutArchitecture/FintrekLayoutArchitecture.md) (Complete)
 
-Business Requirements: This part will study further on User Stories, Use Case, Functional Requirement, Non-functional requirement, Technology Requirement for Front-End, Back End & DevOps, Architecture Diagream
+Business Requirements: This part will study further on User Stories, Use Case, Functional Requirement, Non-functional requirement, Technology Requirement for Front-End, Back End & DevOps, Architecture Diagram
 
-*Note: There's might have slight differeneces between architected document and deployed app. However, this part plays crucial part as guidance for me creating the web app.* 
+*Note: There's might have slight differences between architected document and deployed app. However, this part plays crucial part as guidance for me creating the web app.* 
 
 ### Web App Development
 
