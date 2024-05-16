@@ -1,8 +1,9 @@
 # <p align='center'> FinTrek </p>
 <p align='center'> Personal finance app to track expenses, budgets, and financial goals efficiently and securely. </p>
 
-<p align='center'>
-  
+<!--<p align='center'> `Technologies Used`: HTML, CSS, JavaScript for front-end; Backend technologies (Node.js & Python); Database (MySQL); Authentication methods; Monitoring tools (Prometheus); BI tools (Power BI). </p>-->
+
+<!--
 | Part | Description | Status |
 |:----:|:------------|:------:|
 |[**Part 1**](Planning&Initiation/PlanningAndInitiation.md)|**Planning and Initiation**|✓ Complete|
@@ -24,5 +25,40 @@
 |[*Part 2.15*](#market-basket-analysis)|Market Basket Analysis|T.B.C|
 |[*Part 2.16*](#powerbi-dashboard)|PowerBI Dashboard|T.B.C|
 |[**Part 3**](ProjectClosure/ProjectClosure.md)|**Project Closure** |T.B.C|
+-->
 
-</p>
+### [Design and Architecture](Planning&Initiation/PlanningAndInitiation.md) (Complete)
+
+Business Requirements: This part will study further on User Stories, Use Case, Functional Requirement, Non-functional requirement, Technology Requirement for Front-End, Back End & DevOps, Architecture Diagream
+
+*Note: There's might have slight differeneces between architected document and deployed app. However, this part plays crucial part as guidance for me creating the web app.* 
+
+### Web App Development
+
+`Preparation`: Code Configuration, Dependencies, Version Control
+`Environment Setup`: Server Selection (Hosting platform: AWS), Infrastructure, Environment Variables
+`Build and Test`: Build process (Build Automation), Testing (Automated Tests, Manual Tests)
+`Deployment`: CI/CD, Deployment Strategy, Initial Deployment
+
+### Security Management
+
+Using Authentication method in user registration and login
+
+### Monitoring and DevOps
+
+Monitoring
+- Application Monitoring: Utilize tools in getting real-time metrics
+- Performance Metrics: Getting info on Response times, Error rates and resource usage.
+
+DevOps Practice
+- Automated Testing
+- Deployment Scripts
+- Rollbacks and version control
+
+### Business Intelligence
+
+Data Collection: Aggregate user data on expenses, budgets and goals
+Data Visualization: Use BI tools to create dashboards and reports
+Reporting: Summaries & Predictive Analysis.
+
+
