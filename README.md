@@ -1,7 +1,8 @@
-# <p align='center'> FinTrek </p>
-<p align='center'> Personal finance app to track expenses, budgets, and financial goals efficiently and securely. </p>
+# FinTrek
 
-<!--<p align='center'> `Technologies Used`: HTML, CSS, JavaScript for front-end; Backend technologies (Node.js & Python); Database (MySQL); Authentication methods; Monitoring tools (Prometheus); BI tools (Power BI). </p>-->
+Personal finance app to track expenses, budgets, and financial goals efficiently and securely.
+
+<!-- `Technologies Used`: HTML, CSS, JavaScript for front-end; Backend technologies (Node.js & Python); Database (MySQL); Authentication methods; Monitoring tools (Prometheus); BI tools (Power BI).-->
 
 <!--
 | Part | Description | Status |
