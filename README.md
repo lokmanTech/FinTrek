@@ -37,8 +37,11 @@ Business Requirements: This part will study further on User Stories, Use Case, F
 ### Web App Development
 
 `Preparation`: Code Configuration, Dependencies, Version Control
+
 `Environment Setup`: Server Selection (Hosting platform: AWS), Infrastructure, Environment Variables
+
 `Build and Test`: Build process (Build Automation), Testing (Automated Tests, Manual Tests)
+
 `Deployment`: CI/CD, Deployment Strategy, Initial Deployment
 
 ### Security Management
@@ -59,7 +62,9 @@ DevOps Practice
 ### Business Intelligence
 
 Data Collection: Aggregate user data on expenses, budgets and goals
+
 Data Visualization: Use BI tools to create dashboards and reports
+
 Reporting: Summaries & Predictive Analysis.
 
 
