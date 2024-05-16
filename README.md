@@ -1,5 +1,5 @@
-# FinTrek
-Personal finance app to track expenses, budgets, and financial goals efficiently and securely.
+# <p align='center'> FinTrek </p>
+<p align='center'> Personal finance app to track expenses, budgets, and financial goals efficiently and securely. </p>
 
 #### Table of Contents
 | Part | Description | Status |
