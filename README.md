@@ -2,6 +2,7 @@
 <p align='center'> Personal finance app to track expenses, budgets, and financial goals efficiently and securely. </p>
 
 <p align='center'>
+  
 | Part | Description | Status |
 |:----:|:------------|:------:|
 |[**Part 1**](Planning&Initiation/PlanningAndInitiation.md)|**Planning and Initiation**|✓ Complete|
@@ -23,4 +24,5 @@
 |[*Part 2.15*](#market-basket-analysis)|Market Basket Analysis|T.B.C|
 |[*Part 2.16*](#powerbi-dashboard)|PowerBI Dashboard|T.B.C|
 |[**Part 3**](ProjectClosure/ProjectClosure.md)|**Project Closure** |T.B.C|
+
 </p>
