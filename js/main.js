@@ -1,15 +1,19 @@
+document.addEventListener('DOMContentLoaded', () => {
+    displayTransactions();
+    displayAnalysis();
+});
+
 document.getElementById('transactionForm').addEventListener('submit', function (event) {
     event.preventDefault();
     const type = document.getElementById('type').value;
     const category = document.getElementById('category').value;
-    const date = new Date().toLocaleDateString('en-GB'); // Get current date in dd/mm/yyyy format
-    const amount = parseFloat(document.getElementById('amount').value.replace(/[^0-9.]/g, ''));
+    const amount = parseFloat(document.getElementById('amount').value);
 
     const transaction = {
         id: Date.now().toString(),
         type,
         category,
-        date,
+        date: new Date().toLocaleDateString('en-GB'),
         amount
     };
 
@@ -56,7 +60,14 @@ function toggleCategoryOptions() {
     const categorySelect = document.getElementById('category');
     categorySelect.innerHTML = '';
 
-    const categories = (type === 'income') ? incomeCategories : (type === 'saving' ? savingsCategories : expenseCategories);
+    let categories = [];
+    if (type === 'income') {
+        categories = ['Salary', 'Freelance', 'Investments', 'Other'];
+    } else if (type === 'expense') {
+        categories = ['Groceries', 'Rent', 'Utilities', 'Transportation', 'Entertainment', 'Other'];
+    } else if (type === 'saving') {
+        categories = ['Unit Trust', 'Fixed Deposit', 'Gold'];
+    }
 
     categories.forEach(category => {
         const option = document.createElement('option');
@@ -66,15 +77,11 @@ function toggleCategoryOptions() {
     });
 }
 
-const incomeCategories = ['Salary', 'Freelance', 'Investments', 'Other'];
-const expenseCategories = ['Groceries', 'Rent', 'Utilities', 'Transportation', 'Entertainment', 'Healthcare', 'Other'];
-const savingsCategories = ['Gold', 'Unit Trust', 'Fixed Deposit'];
-
 function displayAnalysis() {
     const transactions = getTransactions();
     let income = 0;
     let expenses = 0;
-    let savings = 0;
+    let totalSavings = 0;
 
     transactions.forEach(transaction => {
         if (transaction.type === 'income') {
@@ -82,69 +89,59 @@ function displayAnalysis() {
         } else if (transaction.type === 'expense') {
             expenses += transaction.amount;
         } else if (transaction.type === 'saving') {
-            savings += transaction.amount;
+            totalSavings += transaction.amount;
         }
     });
 
-    const needsBudget = income * 0.5; // 50% for needs
-    const wantsBudget = income * 0.3; // 30% for wants
-    const savingsBudget = income * 0.2; // 20% for savings
+    const needsExpenses = ['Groceries', 'Rent', 'Utilities'];
+    const wantsExpenses = ['Transportation', 'Entertainment', 'Other'];
+    const savingsExpenses = ['Unit Trust', 'Fixed Deposit', 'Gold'];
 
-    const needsExpenses = expenses; // Expenses categorized as needs
-    const wantsExpenses = (expenses / income) * wantsBudget; // Expenses categorized as wants
-    const savingsExpenses = savings; // Expenses categorized as savings
+    const needsTotal = transactions.filter(transaction => needsExpenses.includes(transaction.category))
+                                    .reduce((total, transaction) => total + transaction.amount, 0);
+    const wantsTotal = transactions.filter(transaction => wantsExpenses.includes(transaction.category))
+                                    .reduce((total, transaction) => total + transaction.amount, 0);
+    const savingsTotal = transactions.filter(transaction => savingsExpenses.includes(transaction.category))
+                                    .reduce((total, transaction) => total + transaction.amount, 0);
 
-    const needsUsage = (needsExpenses / needsBudget) * 100;
-    const wantsUsage = (wantsExpenses / wantsBudget) * 100;
-    const savingsUsage = (savingsExpenses / savingsBudget) * 100;
+    const needsBudget = income * 0.5;
+    const wantsBudget = income * 0.3;
+    const savingsBudget = income * 0.2;
 
-    const totalBalance = income - expenses - savings;
+    const needsUsage = (needsTotal / needsBudget) * 100;
+    const wantsUsage = (wantsTotal / wantsBudget) * 100;
+    const savingsUsage = (savingsTotal / savingsBudget) * 100;
+
+    const totalBalance = income - expenses - totalSavings;
 
     const budgetSummaryElement = document.getElementById('budgetSummary');
     budgetSummaryElement.innerHTML = `
-        <p>50% Needs: You have used ${needsUsage.toFixed(2)}%, you have a balance of RM ${(needsBudget - needsExpenses).toFixed(2)}</p>
-        <p>30% Wants: You have used ${wantsUsage.toFixed(2)}%, you have a balance of RM ${(wantsBudget - wantsExpenses).toFixed(2)}</p>
-        <p>20% Savings: Your savings currently at ${(savingsUsage.toFixed(2))}% from the allocated budget</p>
+        <p>50% Needs: You have used ${needsUsage.toFixed(2)}%, you have a balance of RM ${(needsBudget - needsTotal).toFixed(2)}</p>
+        <p>30% Wants: You have used ${wantsUsage.toFixed(2)}%, you have a balance of RM ${(wantsBudget - wantsTotal).toFixed(2)}</p>
+        <p>20% Savings: Your savings currently at ${savingsUsage.toFixed(2)}% from the allocated budget</p>
     `;
 
-    const totalIncomeElement = document.getElementById('totalIncome');
-    totalIncomeElement.textContent = `RM ${income.toFixed(2)}`;
-
-    const savingsElement = document.getElementById('savings');
-    savingsElement.textContent = `RM ${savings.toFixed(2)}`;
-
-    const totalExpensesElement = document.getElementById('totalExpenses');
-    totalExpensesElement.textContent = `RM ${expenses.toFixed(2)}`;
-
-    const totalBalanceElement = document.getElementById('totalBalance');
-    totalBalanceElement.textContent = `RM ${totalBalance.toFixed(2)}`;
+    document.getElementById('totalIncome').textContent = `RM ${income.toFixed(2)}`;
+    document.getElementById('totalExpenses').textContent = `RM ${expenses.toFixed(2)}`;
+    document.getElementById('savings').textContent = `RM ${totalSavings.toFixed(2)}`;
+    document.getElementById('totalBalance').textContent = `RM ${totalBalance.toFixed(2)}`;
 
     const ratio = (income - expenses) / expenses;
     const ratioElement = document.getElementById('ratio');
     ratioElement.textContent = `Ratio: ${(ratio * 100).toFixed(2)}%`;
-    if (ratio >= 0) {
-        ratioElement.style.color = '#5cb85c'; // Green for positive ratio
-    } else {
-        ratioElement.style.color = '#d9534f'; // Red for negative ratio
-    }
+    ratioElement.style.color = ratio >= 0 ? '#5cb85c' : '#d9534f';
 
-    // Display pie charts
+    // Generate pie charts
     const incomeChart = new ApexCharts(document.getElementById('incomeChart'), {
-        series: [income, expenses],
-        labels: ['Income', 'Expenses'],
+        series: [income, expenses, totalSavings],
+        labels: ['Income', 'Expenses', 'Savings'],
         chart: {
-            type: 'pie',
+            type: 'donut',
         },
-        colors: ['#5cb85c', '#d9534f']
+        colors: ['#5cb85c', '#d9534f', '#f0ad4e']
     });
     incomeChart.render();
 }
-
-// Call displayTransactions and displayAnalysis on page load
-document.addEventListener('DOMContentLoaded', () => {
-    displayTransactions();
-    displayAnalysis();
-});
 
 function filterTransactions() {
     const filterType = document.getElementById('transactionFilter').value;
@@ -162,4 +159,3 @@ function filterTransactions() {
         transactionList.appendChild(transactionItem);
     });
 }
-
