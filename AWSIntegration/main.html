@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FinTrek Dashboard</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="dashboard-container">
+        <h1>FinTrek Dashboard</h1>
+        <div class="form-container">
+            <form id="transactionForm">
+                <select id="type">
+                    <option value="income">Income</option>
+                    <option value="expense">Expense</option>
+                </select>
+                <input type="text" id="category" placeholder="Category" required>
+                <input type="number" id="amount" placeholder="Amount" required>
+                <button type="submit">Add Transaction</button>
+            </form>
+        </div>
+        <div id="transactionList"></div>
+        <div id="analysis"></div>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>

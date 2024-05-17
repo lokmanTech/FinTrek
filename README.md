@@ -67,4 +67,9 @@ Data Visualization: Use BI tools to create dashboards and reports
 
 Reporting: Summaries & Predictive Analysis.
 
+## Process and Development
+
+AWS Setup
+1. AWS Cognito: For user authentication (free tier available)
+2. AWS DynamoDB: For storing expenses,incomes and financial goals (free tier available)
 

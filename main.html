@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FinTrek Dashboard</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="dashboard-container">
+        <h1>FinTrek Dashboard</h1>
+        <div class="form-container">
+            <form id="transactionForm">
+                <select id="type" onchange="toggleCategoryOptions()">
+                    <option value="income">Income</option>
+                    <option value="expense">Expense</option>
+                    <option value="saving">Saving</option>
+                </select>
+                <select id="category" required>
+                    <!-- Categories will be dynamically populated based on selected type -->
+                </select>
+                <input type="month" id="monthYear" required>
+                <input type="text" id="amount" placeholder="Amount (RM)" pattern="[0-9]+(\.[0-9]{1,2})?" required>
+                <button type="submit">Add Transaction</button>
+            </form>
+        </div>
+        <div class="transactions-container">
+            <h2>Transactions</h2>
+            <select id="transactionFilter" onchange="filterTransactions()">
+                <option value="all">All Transactions</option>
+                <option value="income">Income</option>
+                <option value="expense">Expense</option>
+                <option value="saving">Saving</option>
+            </select>
+            <div id="transactionList" class="transaction-list"></div>
+        </div>
+        <div class="analysis-container">
+            <h2>Financial Analysis</h2>
+            <div class="chart-container">
+                <div id="incomeChart" class="chart"></div>
+                <p>Total Income: <span id="totalIncome"></span></p>
+            </div>
+            <div class="chart-container">
+                <div id="expenseChart" class="chart"></div>
+                <p>Total Expenses: <span id="totalExpenses"></span></p>
+                <p>Total Savings: <span id="savings"></span></p>
+            </div>
+            <p>Total Balance: <span id="totalBalance"></span></p>
+            <p id="ratio"></p>
+            <div id="budgetSummary"></div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
+
+
+<!--EXPLANATION-->
+<!--
+index.html: Displays temporary access credentials and a login form.
+login.js: Checks for the hardcoded email and password, redirecting to main.html if they match.
+main.html: Contains the dashboard layout.
+styles.css: Basic styling using Century Gothic / Avenir fonts.
+main.js: Handles adding transactions, saving them to local storage, and displaying both transactions and a financial analysis on the dashboard.
+This setup allows you to test the application locally without needing AWS. You can store transactions in the browser's local storage and perform calculations based on these stored transactions.
+-->
