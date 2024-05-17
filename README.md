@@ -28,13 +28,13 @@ Personal finance app to track expenses, budgets, and financial goals efficiently
 |[**Part 3**](ProjectClosure/ProjectClosure.md)|**Project Closure** |T.B.C|
 -->
 
-### [Design and Architecture](./LayoutArchitecture/FintrekLayoutArchitecture.md) (Complete)
+### 1. [Design and Architecture](./LayoutArchitecture/FintrekLayoutArchitecture.md) (Complete)
 
 Business Requirements: This part will study further on User Stories, Use Case, Functional Requirement, Non-functional requirement, Technology Requirement for Front-End, Back End & DevOps, Architecture Diagram
 
 *Note: There's might have slight differences between architected document and deployed app. However, this part plays crucial part as guidance for me creating the web app.* 
 
-### Web App Development
+### 2. Web App Development
 
 `Preparation`: Code Configuration, Dependencies, Version Control
 
@@ -44,11 +44,11 @@ Business Requirements: This part will study further on User Stories, Use Case, F
 
 `Deployment`: CI/CD, Deployment Strategy, Initial Deployment
 
-### Security Management
+### 3. Security Management
 
 Using Authentication method in user registration and login
 
-### Monitoring and DevOps
+### 4. Monitoring and DevOps
 
 Monitoring
 - Application Monitoring: Utilize tools in getting real-time metrics
@@ -59,7 +59,7 @@ DevOps Practice
 - Deployment Scripts
 - Rollbacks and version control
 
-### Business Intelligence
+### 5. Business Intelligence
 
 Data Collection: Aggregate user data on expenses, budgets and goals
 
