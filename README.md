@@ -38,7 +38,7 @@ Business Requirements: This part will study further on User Stories, Use Case, F
 
 `Preparation`: Code Configuration, Dependencies, Version Control
 
-`Environment Setup`: Server Selection (Hosting platform: AWS), Infrastructure, Environment Variables
+`Environment Setup`: Server Selection (Hosting platform: GitHub pages, AWS DynamoDB), Infrastructure, Environment Variables (AWS Cognito)
 
 `Build and Test`: Build process (Build Automation), Testing (Automated Tests, Manual Tests)
 
