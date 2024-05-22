@@ -34,7 +34,7 @@ Business Requirements: This part will study further on User Stories, Use Case, F
 
 *Note: There's might have slight differences between architected document and deployed app. However, this part plays crucial part as guidance for me creating the web app.* 
 
-### 2. [Web App Development](https://lokmanTech.github.io/FinTrek) (In-progress)
+### 2. [Web App Development](https://lokmanTech.github.io/FinTrek) (v.01 - Complete)
 
 `Preparation`: Code Configuration, Dependencies, Version Control
 
